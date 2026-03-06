@@ -10,8 +10,23 @@ body{
 }
 
 .msg {
-    background-color:darkolivegreen;
+    background-color:rgb(127, 127, 34);
     color: white;
     padding: 5px 15px;
     border-radius: 16px; 
+}
+
+button{
+    cursor: pointer;
+    background-color: lightgoldenrodyellow;
+    padding: 5px 13px;
+    border: none;
+    border-radius: 6px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+button:hover{
+    background-color: goldenrod;
+    color: white;
 }
